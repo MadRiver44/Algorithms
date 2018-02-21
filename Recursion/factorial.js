@@ -1,4 +1,4 @@
-// Implement factorial recursively
+// IMPLEMENNT A FACTOTIAL RECURSIVELY
 
 const factorial = function(num) {
   if (num === 0 || num === 1) {
