@@ -1,24 +1,21 @@
-
 /*
+
 Insertion Sort -- selects the first element in an array and pushes it to a new array
  As each new elelent is added, insert the new element in the correct order
 
-Adaptive yes, Stable, yes
-
-
-Space Complexity
-  O(1) for extra space
-
-Time Complexity
+----- Space Complexity: O(1) for extra space
+----- Time Complexity
   worst - O(n^2) for comparisons and swaps
   best -- O(n) for nearly sorted
 
-
+Adaptive yes, Stable, yes
 
 Use cases, when data is nearly sorted (since it's adaptive) or when the problem size is small
 because it has low memory overhead
 
 */
+
+
 // Implementation 1
 
 function insertionSort(array) {
