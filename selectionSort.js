@@ -88,15 +88,16 @@ selectionSort([1, 4, 5, 245, 7, 3, 3])
 
 /* ------------------------------------*/
 
-//~~~ Sedgewick Algoritms, trouble with java to js imolementation
-// function isSorted(arr) { // Certification
-//   for(var i = 1; i < arr.length; i++) {
-//     if(less(arr[i], arr[i-1]) < 0) {
-//       console.log(true);
-//     }
-//   }
-// }
-// isSorted([1,7,2,3,4,5,6]);
+// ~~~ Sedgewick Algoritms, trouble with java to js implementation
+function isSorted(arr) {
+  // Certification
+  for (var i = 1; i < arr.length; i++) {
+    if (less(arr[i], arr[i - 1]) < 0) {
+      console.log(true)
+    }
+  }
+}
+isSorted([1, 7, 2, 3, 4, 5, 6])
 
 //selectionSort([1,4,5,245,7, 3,3]);
 

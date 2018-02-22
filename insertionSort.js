@@ -3,6 +3,14 @@
 Insertion Sort -- selects the first element in an array and pushes it to a new array
  As each new elelent is added, insert the new element in the correct order
 
+ Items to the left of current index are in sorted order during sort but not in the final position
+ as they may have to be moved if a smaller item is found later. The array is fully sorted when
+ the index reaches the right end.
+
+ Running time depends on the initial order of the array.
+
+ Uses N^2/4 compares and N^2/4 exchanges to sort a randomly ordered array of N length.
+
 ----- Space Complexity: O(1) for extra space
 ----- Time Complexity
   worst - O(n^2) for comparisons and swaps

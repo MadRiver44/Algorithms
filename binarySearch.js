@@ -2,7 +2,7 @@
 
 Binary Search - a divide and conquer algorithm
 
----- Time Complexity : O(logN)
+---- Time Complexity : O(N logN)
 
 
 */
